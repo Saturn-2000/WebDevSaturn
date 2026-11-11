@@ -1,0 +1,26 @@
+
+
+thead{
+
+      background-color:rgb(21, 21, 98);
+      color:white;
+      padding: 9px;
+         }
+
+    table{
+      border-collapse: collapse;
+      width: 60%;
+      height: 120px;
+        }
+     /* table, td, th{
+        border: 1px solid black;
+      }*/
+
+
+    #table_container {
+      
+      font-size: medium;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: aqua;
+      margin: 0 auto;
+    }
