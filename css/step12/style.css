@@ -1,0 +1,198 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.container {
+  background: red; 
+  width: 90%;
+  margin: auto;
+  height: auto;
+  border: 1px solid black;
+  max-width: 1100px;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 0 20px;
+  font-size: 13px;
+  background-color: white;
+  border: none;
+}
+
+.logo {
+  width: 110px;
+}
+
+.main-menu {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  margin-left: 20px;
+  list-style: none;
+}
+
+.main-menu a {
+  text-decoration: none;
+  color: #262626;
+  padding-bottom: 2px;
+}
+
+.right-menu {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.right-menu a {
+  color: #262626;
+}
+
+.main-nav a:hover {
+  border-bottom: 2px solid black;
+}
+
+.showcase {
+  width: 100%;
+  height: 400px;
+  background-image: url("../img/slide1.png"); 
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 50px;
+  padding-bottom: 20px;
+  border: none;
+}
+
+.showcase h2, 
+.showcase p {
+  margin-bottom: 10px;
+}
+
+.btn {
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #378ff5;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.dark {
+  color: white;
+}
+
+.dark .btn {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.ruban {
+  width: 100%;
+  height: 350px;
+  background-image: url("../img/carbon2.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+}
+.ruban .content {
+  width: 55%;
+  color: white;
+  padding: 80px 0 0 30px;
+}
+.ruban p { margin: 10px 0 20px; }
+.dark .btn {                  /* overrides the step 5 light button */
+  background-color: #03254c;
+  color: white;
+}
+
+
+.follow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: white;
+  border: none;
+}
+.follow * { margin-right: 10px; }
+.follow span,
+.follow span i {
+  color: black;
+  font-size: 30px;
+}
+
+.links {
+  background: #f2f2f2;
+  color: #616161;
+  padding: 35px 0;
+  height: auto;
+  font-size: 12px;
+  border: none;
+}
+.links-inner {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.links li {
+  line-height: 2.8;
+  list-style: none;
+}
+
+.sub-footer {
+  background: #f2f2f2;
+  color: #616161;
+  font-size: 12px;
+  padding: 20px 0;
+  border: none;
+}
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.footer-inner div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.footer-inner div i { margin-right: 10px; }
+.sub-footer ul {
+  display: flex;
+  list-style: none;
+}
+.sub-footer li {
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+footer { border: none; }
